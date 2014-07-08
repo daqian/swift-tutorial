@@ -3,16 +3,18 @@ Swift教程第3部分：元组，协议，委托和表视图
 更新于2014年7月7日：更新了Xcode6-beta 3.
 欢迎回到Swift教程系列！
 In the first Swift tutorial, you learned the basics of the Swift language, and created your very own tip calculator class.
-在Swift教程的第一部分，我们学习了Swift语言的基础，并且创建了属于我们自己的小费计算器类。
+在第一篇Swift教程里，我们学习了Swift语言的基础，并且创建了属于我们自己的小费计算器类。
 In the second Swift tutorial, you created a simple user interface for the tip calculator.
-在Swift教程的第二部分，我们为小费计算器创建了一个简单的用户界面。
+在第二篇Swift教程里，我们为小费计算器创建了一个简单的用户界面。
 In this third Swift tutorial, you will learn about a new data type introduced in Swift: tuples.
-在这次的Swift第三部分教程里，我们将学习Swift里引入的一个新的数据类型：
+在这次的Swift第三篇教程里，我们将学习Swift里引入的一个新的数据类型：
 元组。
 You will also learn about protocols and delegates, table views, and how to prototype your user interfaces in Playgrounds.
 我们也将学习协议和委托，表视图以及如何规范游戏场地的用户界面。
 This tutorial picks up where the second Swift tutorial left off. If you don’t have it already, be sure to download the sample project where you left it off last time.
+这篇教程补充了第二篇教程中遗漏的内容。如果你还没有学习过它的话，确保你已经下载了上次遗漏的工程例子。
 Note: At the time of writing this tutorial, our understanding is we cannot post screenshots of Xcode 6 since it is still in beta. Therefore, we are suppressing screenshots in this Swift tutorial until we are sure it is OK.
+注解：在写这篇教程的时候，我们的理解是我们不能
 Getting Started
 So far, your Tip Calculator gives a proposed tip for each tip percentage. However, once you select the tip you want to pay, you have to add the tip to the bill total in your head – which kind of defeats the point!
 It would be nice if your calcTipWithTipPct() method returned two values: the tip amount, and the bill total with tip applied.
